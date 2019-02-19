@@ -39,6 +39,32 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Monaco",
+					"fontsize" : 22.0,
+					"id" : "obj-7",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 423.0, 21.5, 311.0, 34.0 ],
+					"presentation_linecount" : 2,
+					"text" : "0. TURN SOUND ON"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 344.0, 6.0, 65.0, 65.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"hiderwff" : 1,
 					"id" : "obj-9",
 					"maxclass" : "playbar",
@@ -122,7 +148,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 685.0, 457.0, 220.0, 34.0 ],
-					"presentation_linecount" : 2,
 					"text" : "3. ADJUST VOLUME"
 				}
 
@@ -136,7 +161,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 499.0, 90.0, 167.0, 34.0 ],
-					"presentation_linecount" : 2,
 					"text" : "1. OPEN FILE"
 				}
 
@@ -167,13 +191,13 @@
 					"patching_rect" : [ 466.0, 403.0, 217.0, 202.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 6.0,
+							"parameter_initial" : [ 0.0 ],
+							"parameter_shortname" : "mc.live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "mc.live.gain~",
-							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ 0.0 ],
-							"parameter_shortname" : "mc.live.gain~"
+							"parameter_longname" : "mc.live.gain~"
 						}
 
 					}
@@ -435,6 +459,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"midpoints" : [ 170.0, 385.0 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
