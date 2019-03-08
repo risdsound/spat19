@@ -1,0 +1,319 @@
+<REAPER_PROJECT 0.1 "5.75/OSX64" 1551045388
+  RIPPLE 0
+  GROUPOVERRIDE 0 0 0
+  AUTOXFADE 1
+  ENVATTACH 1
+  POOLEDENVATTACH 0
+  MIXERUIFLAGS 11 48
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0
+  MAXPROJLEN 0 600
+  GRID 3199 8 1 8 1 0 0 0
+  TIMEMODE 1 5 -1 30 0
+  VIDEO_CONFIG 0 0 256
+  PANMODE 3
+  CURSOR 1
+  ZOOM 109.54451150103321 1247 0
+  VZOOMEX 6
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 0
+  LOOPGRAN 0 4
+  RECORD_PATH "" ""
+  <RECORD_CFG
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE ""
+  RENDER_PATTERN ""
+  RENDER_FMT 0 2 0
+  RENDER_1X 0
+  RENDER_RANGE 1 0 0 18 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 0
+  DEFPITCHMODE 589824
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    FREQ 800 1600 1
+    BEATLEN 4
+    SAMPLES "" ""
+    PATTERN 2863311530 2863311529
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4
+  PLAYRATE 1 0 0.25 4
+  SELECTION 0 0
+  SELECTION2 0 0
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 1
+  MASTERTRACKVIEW 1 0.6667 0.5 0.5 0 0 0
+  MASTERHWOUT 0 0 1 0 0 0 2048 -1
+  MASTER_NCH 4 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERFXLIST
+    WNDRECT 1854 1167 802 667
+    SHOW 0
+    LASTSEL 0
+    DOCKED 0
+  >
+  <MASTERPLAYSPEEDENV
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    ACT 0 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  <PROJBAY
+  >
+  <TRACK {1E86A4D6-6D15-AB4C-8BC0-257053AE5B6D}
+    NAME "Binaural bus"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 1
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 4
+    FX 1
+    TRACKID {1E86A4D6-6D15-AB4C-8BC0-257053AE5B6D}
+    PERF 0
+    AUXRECV 1 0 1 0 0 0 0 2048 0 -1:U 0 -1 ''
+    MIDIOUT -1
+    MAINSEND 0 0
+    HWOUT 0 0 1 0 0 0 0 -1:U -1
+    <FXCHAIN
+      WNDRECT 629 1070 802 667
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS ATK/FOA/Decode/Binaural ""
+        21.000000 0.000000 1.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {2DD52E88-1D5A-DE46-BE48-92DB9241B22F}
+      WAK 0
+    >
+  >
+  <TRACK {C0BD16CF-1C16-3D46-8BDD-CF9EDB6593D3}
+    NAME "B-format Mix"
+    PEAKCOL 26382659
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 1 1
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 4
+    FX 1
+    TRACKID {C0BD16CF-1C16-3D46-8BDD-CF9EDB6593D3}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+  >
+  <TRACK {C49B5A3A-F83D-2C47-9A48-05B718D5ABA6}
+    NAME "ATK Encode Mono"
+    PEAKCOL 27628534
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 4
+    FX 1
+    TRACKID {C49B5A3A-F83D-2C47-9A48-05B718D5ABA6}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 1394 1163 802 645
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS ATK/FOA/Encode/Planewave ""
+        0.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {117653C0-13DD-0C45-AC82-B973207D9EDD}
+      WAK 0
+      BYPASS 1 0 0
+      <JS ATK/FOA/Transform/DirectO ""
+        0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {B44CC0BF-33D3-C04D-9502-FCBD6A4F9DFC}
+      WAK 0
+      BYPASS 1 0 0
+      <JS ATK/FOA/Transform/FocusPressPushZoom ""
+        0.000000 0.000000 0.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {D15FBFA8-9F4D-D146-93EE-5E46514710BB}
+      WAK 0
+      BYPASS 1 0 0
+      <JS ATK/FOA/Transform/RotateTiltTumble ""
+        0.000000 0.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {3CB122C9-3342-B848-A7D9-BD3E13410093}
+      WAK 0
+    >
+  >
+  <TRACK {C5C4E9D4-BBF8-1347-B91C-9C36A0F63E20}
+    NAME "ATK Encode Stereo"
+    PEAKCOL 27628534
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 4
+    FX 1
+    TRACKID {C5C4E9D4-BBF8-1347-B91C-9C36A0F63E20}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 2170 1181 802 686
+      SHOW 0
+      LASTSEL 2
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS ATK/FOA/Encode/Stereo ""
+        102.750000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {528406EB-2275-4F47-8A46-D6B8F4CD3D8E}
+      WAK 0
+      BYPASS 1 0 0
+      <JS ATK/FOA/Encode/SuperStereo ""
+        5.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {FFDF815A-E76D-7D41-BA1C-ECBCFBEF76DB}
+      WAK 0
+      BYPASS 1 0 0
+      <JS ATK/FOA/Transform/FocusPressPushZoom ""
+        0.000000 0.000000 0.000000 32.015865 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      JS_DIMS 563 636
+      FLOATPOS 0 0 0 0
+      FXID {CD0C5AE5-1653-BC4D-873A-E10A9EA60306}
+      WAK 0
+      BYPASS 1 0 0
+      <JS ATK/FOA/Transform/RotateTiltTumble ""
+        0.000000 0.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {6836F483-06D4-B74A-9CBC-5472A6B7BDD5}
+      WAK 0
+      BYPASS 1 0 0
+      <JS ATK/FOA/Transform/DirectO ""
+        0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 1990 1120 563 597
+      FXID {24183D6A-A6D8-E342-86C1-56CD86AD6896}
+      WAK 0
+    >
+  >
+  <TRACK {E8B8CBE3-2C7C-6F4E-9F7E-D3CCCCC1BD9E}
+    NAME "Wigware AmbiPan"
+    PEAKCOL 19124658
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 2 -1
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 4
+    FX 1
+    TRACKID {E8B8CBE3-2C7C-6F4E-9F7E-D3CCCCC1BD9E}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 2170 1541 581 326
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VST: Wigware AmbiPan Polar 1 - 3d (WigWare) (1->4ch)" WigAmbiEncPolar_1o_3D.vst 0 "" 1464873327
+        bzFQV+9e7f4BAAAAAQAAAAAAAAAEAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAkAAAAAAAAAAAAEAA=
+        776t3g3wrd4AAAAAAAAAPwAAgD8AAAA/AAAAPwAAAIAAAIA/
+        UHJvZyAxAFByb2cgMQAQAAAA
+      >
+      PRESETNAME "Prog 1"
+      FLOATPOS 0 0 0 0
+      FXID {9DA9BA98-56AA-3248-8BFB-8457977B055B}
+      WAK 0
+    >
+  >
+>
