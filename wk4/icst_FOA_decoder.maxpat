@@ -7022,7 +7022,7 @@
 									}
 ,
 									"text" : "autopattr @autoname 1",
-									"varname" : "u290002117"
+									"varname" : "u667000353"
 								}
 
 							}
@@ -8454,10 +8454,10 @@
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "bang", "bang", "bang" ],
-					"patching_rect" : [ 569.0, 72.5, 42.0, 22.0 ],
-					"text" : "t b b b"
+					"numoutlets" : 4,
+					"outlettype" : [ "bang", "bang", "bang", "bang" ],
+					"patching_rect" : [ 569.0, 72.5, 52.0, 22.0 ],
+					"text" : "t b b b b"
 				}
 
 			}
@@ -9674,6 +9674,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-6", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"source" : [ "obj-6", 3 ]
 				}
 
 			}

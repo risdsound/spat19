@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 889.0, 373.0, 1047.0, 807.0 ],
+		"rect" : [ 199.0, 79.0, 869.0, 452.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,8 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 70.0, 349.288665771484375, 559.0, 47.0 ],
-					"presentation_linecount" : 9,
-					"text" : "The text you are reading is \"comment,\" one of the primary items in Max patching.  You can add a comment in edit/unlocked mode with the keyboard shortcut \"c\" or use the comment icon in top menu of the patcher window."
+					"text" : "The text you are reading is a \"comment,\" one of the primary items in Max patching - useful for making notes.  You can add a comment in edit/unlocked mode with the keyboard shortcut \"c\" or use the comment icon in top menu of the patcher window."
 				}
 
 			}
@@ -57,8 +56,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 70.0, 84.0, 403.0, 47.0 ],
-					"presentation_linecount" : 9,
+					"patching_rect" : [ 70.0, 84.0, 407.0, 47.0 ],
 					"text" : "Try switching between \"edit\" and \"run\" modes (unlocked vs. locked).   There is an icon in the lower left corner of the patcher window.  Or you can use the the keyboard shortcuts: command-E (Mac) or ctrl-E (Windows)"
 				}
 
@@ -66,13 +64,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-16",
-					"linecount" : 11,
+					"linecount" : 10,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 476.0, 173.0, 153.0, 154.0 ],
-					"presentation_linecount" : 11,
-					"text" : "Here is a control data example.  Click on the toggle.  The toggle sends the turns on the object metro (short for metronome).  The number \"1000\" is the argument for the metro object, in this case telling the metro to \"bang\" every 1000 milliseconds. "
+					"patching_rect" : [ 476.0, 173.0, 153.0, 141.0 ],
+					"text" : "Here is a control data example.  Click on the toggle.  The toggle turns on the object metro (short for metronome).  The number \"1000\" is the argument for the metro object, in this case telling the metro to \"bang\" every 1000 milliseconds. "
 				}
 
 			}
@@ -83,7 +80,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 173.0, 150.0, 141.0 ],
+					"patching_rect" : [ 161.0, 173.0, 153.0, 141.0 ],
 					"text" : "Here is a \"hello world\" example.  Click on the message \"hello world\" and look at the Max console (Window > Max console). You should see the message printed to the Max console window ever time you click on the on message. "
 				}
 

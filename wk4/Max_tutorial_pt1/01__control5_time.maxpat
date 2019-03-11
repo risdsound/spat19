@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1225.0, 79.0, 1290.0, 628.0 ],
+		"rect" : [ 158.0, 79.0, 1290.0, 628.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,18 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 730.0, 11.0, 87.0, 22.0 ],
+					"text" : "loadmess 120."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"format" : 6,
 					"id" : "obj-64",
@@ -313,8 +325,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 689.0, 114.0, 39.0, 22.0 ],
-					"text" : "metro"
+					"patching_rect" : [ 689.0, 114.0, 63.0, 22.0 ],
+					"text" : "metro 500"
 				}
 
 			}
@@ -362,7 +374,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 276.5, 222.0, 287.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "pipe does the same, but with messages and numbers"
 				}
 
@@ -387,7 +398,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 210.0, 222.0, 34.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "hello"
 				}
 
@@ -424,7 +434,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 172.5, 222.0, 35.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "1200"
 				}
 
@@ -581,6 +590,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}

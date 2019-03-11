@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1148.0, 100.0, 1256.0, 476.0 ],
+		"rect" : [ 120.0, 79.0, 1256.0, 476.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 69.0, 297.0, 507.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "You can also use ezdac~ or ezadc~ to do the same.  Or use the power button icon in the lower right hand corner of the patcher window."
 				}
 
@@ -69,7 +68,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 397.0, 161.0, 153.0, 33.0 ],
-					"presentation_linecount" : 6,
 					"text" : "INPUT \nanalog to digital converter"
 				}
 
@@ -115,7 +113,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 64.0, 15.0, 486.0, 33.0 ],
+					"patching_rect" : [ 64.0, 15.0, 492.0, 33.0 ],
 					"text" : "Under Options > Audio Status, you will see menus to select your Input and Output Device.  You can also double-click on a dac~ or adc~ to see this window."
 				}
 

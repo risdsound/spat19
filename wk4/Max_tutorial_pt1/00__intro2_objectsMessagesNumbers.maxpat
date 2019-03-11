@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1227.0, 237.0, 1335.0, 532.0 ],
+		"rect" : [ 315.0, 95.0, 918.0, 517.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -82,7 +82,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 592.64764404296875, 361.18182373046875, 74.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "gain control "
 				}
 
@@ -293,7 +292,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 57.0, 162.0, 533.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "To learn more about an object: once you have added it to your patch, in edit mode right click on it and choose open ___ Help.  "
 				}
 
@@ -305,9 +303,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 57.0, 85.0, 533.0, 74.0 ],
-					"presentation_linecount" : 5,
-					"text" : "An object is a small bit of code that performs a function.  Each has inlets and outlets which are used to join together objects as well as to provide messages and numbers that change the state of the object.  You can create a new object using the keyboard shortcut \"n\" then typing the name of the object.  You can use the left menu in the patcher window to find objects by category and name (use the object icon). "
+					"patching_rect" : [ 57.0, 79.0, 534.0, 74.0 ],
+					"text" : "An object is a small bit of code that performs a function.  Each has inlets and outlets which are used to join together objects. The inlets also provide a way to change the state of the object with messages and numbers.  You can create a new object using the keyboard shortcut \"n\" then typing the name of the object.  You can use the left menu in the patcher window to find objects by category and name (use the object icon). "
 				}
 
 			}

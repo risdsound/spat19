@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1486.0, 99.0, 1036.0, 538.0 ],
+		"rect" : [ 244.0, 79.0, 1036.0, 538.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -283,7 +283,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 115.0, 72.0, 132.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "maybe 333 boring 1111"
 				}
 

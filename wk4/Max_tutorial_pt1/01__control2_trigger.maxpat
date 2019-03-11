@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1449.0, 79.0, 978.0, 565.0 ],
+		"rect" : [ 94.0, 93.0, 978.0, 565.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 283.0, 268.0, 223.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "a common solution when you want the right value to trigger a calculation"
 				}
 
@@ -129,7 +128,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 224.0, 167.0, 223.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "look at the Max console to see the result"
 				}
 
@@ -152,7 +150,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 177.0, 79.5, 458.0, 33.0 ],
+					"patching_rect" : [ 177.0, 79.5, 460.0, 33.0 ],
 					"text" : "trigger sends it output to different outlets based on the argument given, in right to left order.  tigger is used often to make sure events happen in the right order  "
 				}
 

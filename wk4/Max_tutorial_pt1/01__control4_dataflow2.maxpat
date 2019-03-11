@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1479.0, 83.0, 1024.0, 739.0 ],
+		"rect" : [ 266.0, 79.0, 668.0, 742.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -248,7 +248,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 209.0, 263.0, 247.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "select sends a bang when a value matches one of the arguments "
 				}
 

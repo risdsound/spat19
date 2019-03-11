@@ -1364,10 +1364,10 @@
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "bang", "bang", "bang" ],
-					"patching_rect" : [ 772.0, 145.0, 42.0, 22.0 ],
-					"text" : "t b b b"
+					"numoutlets" : 4,
+					"outlettype" : [ "bang", "bang", "bang", "bang" ],
+					"patching_rect" : [ 772.0, 145.0, 52.0, 22.0 ],
+					"text" : "t b b b b"
 				}
 
 			}
@@ -7285,7 +7285,7 @@
 									}
 ,
 									"text" : "autopattr @autoname 1",
-									"varname" : "u020008698"
+									"varname" : "u273001396"
 								}
 
 							}
@@ -10149,6 +10149,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-6", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"source" : [ "obj-6", 3 ]
 				}
 
 			}

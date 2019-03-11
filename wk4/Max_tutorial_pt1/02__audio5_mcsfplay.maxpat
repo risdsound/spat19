@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 795.0, 329.0, 1724.0, 770.0 ],
+		"rect" : [ 91.0, 79.0, 1724.0, 770.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,13 +39,78 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-33",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1337.0, 441.0, 150.0, 20.0 ],
+					"text" : "25 channels"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1337.0, 224.0, 150.0, 20.0 ],
+					"text" : "25 channels"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 956.0, 224.0, 150.0, 20.0 ],
+					"text" : "16 channels"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 506.0, 224.0, 150.0, 20.0 ],
+					"text" : "4 channels"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 113.0, 441.0, 150.0, 20.0 ],
+					"text" : "2 channels"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 113.0, 224.0, 150.0, 20.0 ],
+					"text" : "2 channels"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-35",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1159.0, 508.0, 150.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "mc.unpack~ can break a multichannel cable into single channel cables"
 				}
 
@@ -443,8 +508,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 76.0, 22.0, 558.0, 60.0 ],
-					"text" : "In Max 8, a new way of working with multichannel audio files was introduced.  By adding the prefix \"mc\" to an audio object, the the cables connected objects transmit more than one channel of audio. This makes things a lot easier for ambisonic encoded sound files which will have 4 channels for first-order and 16-channels for third-order."
+					"patching_rect" : [ 76.0, 22.0, 563.0, 60.0 ],
+					"text" : "In Max 8, a new way of working with multichannel audio files was introduced.  By adding the prefix \"mc.\" to an audio object, the cables connecting objects transmit more than one channel of audio. This makes things a lot easier for ambisonic encoded sound files which will have 4 channels for first-order and 16-channels for third-order."
 				}
 
 			}

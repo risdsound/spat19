@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1445.0, 114.0, 1008.0, 467.0 ],
+		"rect" : [ 244.0, 79.0, 1008.0, 467.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -115,8 +115,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 78.0, 61.0, 509.0, 74.0 ],
-					"text" : "To get sound out to your speakers, you will need the dac~ object. The dac~ is the Digital to Analog Converter. This enables the computer to take our digital information and send it to an amplfier/loudspeaker combination where it is converted to analog pressure waves that we can hear. Notice the ~ sign at the end of the object name. This indicates that this object works with audio signals."
+					"patching_rect" : [ 78.0, 61.0, 510.0, 74.0 ],
+					"text" : "To get sound out to your speakers, you will need the dac~ object. The dac~ is the Digital to Analog Converter. This enables the computer to take digital information and send it to an amplfier/loudspeaker combination where it is converted to analog pressure waves that we can hear. Notice the ~ sign at the end of the object name. This indicates that this object works with audio signals."
 				}
 
 			}

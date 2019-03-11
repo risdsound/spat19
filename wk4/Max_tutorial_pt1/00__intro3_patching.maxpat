@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1089.0, 133.0, 1077.0, 562.0 ],
+		"rect" : [ 38.0, 79.0, 1077.0, 562.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 115.624992370605469, 438.541656494140625, 731.0, 33.0 ],
-					"text" : "good patching practice is to arrange your objects so that the dataflow is from the top-down. Avoid connecting-lines overlapping objects as much as possible (for the sake of readability)."
+					"text" : "Good patching practice is to arrange your objects so that the dataflow is from the top-down. Avoid connecting-lines overlapping objects as much as possible (for the sake of readability).  In edit mode, rollover inlets and outlets to see what they do."
 				}
 
 			}

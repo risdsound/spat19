@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 201.0, 81.0, 861.0, 526.0 ],
+		"rect" : [ 409.0, 81.0, 861.0, 526.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,45 +39,36 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-21",
+					"id" : "obj-9",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 178.0, 232.0, 468.0, 20.0 ],
-					"text" : "The argument is 1, meaning that only 1 channel will be used for a mono sound file."
+					"patching_rect" : [ 115.0, 180.0, 590.0, 33.0 ],
+					"text" : "You can use the send~ object with a matching receive~ object to send audio signals throughout your patch or in between multiple open patches."
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-20",
-					"maxclass" : "comment",
+					"id" : "obj-6",
+					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 166.0, 490.0, 311.0, 20.0 ],
-					"text" : "Here the dac~ has normal stereo outlets "
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 115.0, 276.0, 112.0, 22.0 ],
+					"text" : "receive~ soundfile1"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-19",
-					"maxclass" : "comment",
+					"id" : "obj-4",
+					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 154.0, 345.0, 311.0, 20.0 ],
-					"text" : "5. Adjust the volume of the soundfile with the gain~ slider"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-18",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 218.0, 205.0, 468.0, 20.0 ],
-					"text" : "4. Playbar is an alternative that makes sfplay functions easier to control "
+					"patching_rect" : [ 115.0, 115.0, 100.0, 22.0 ],
+					"text" : "send~ soundfile1"
 				}
 
 			}
@@ -88,7 +79,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 223.0, 177.0, 211.0, 23.0 ]
+					"patching_rect" : [ 186.5, 44.0, 211.0, 23.0 ]
 				}
 
 			}
@@ -106,46 +97,13 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-12",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 52.0, 36.0, 150.0, 20.0 ],
-					"text" : "1. Turn on Audio"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 185.0, 126.0, 468.0, 20.0 ],
-					"text" : "3. Play by sending a 1 message, stop by sending a 0 message"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 115.0, 71.0, 467.0, 20.0 ],
-					"text" : "2. Open a sound file.  This should be uncompressed, such as a WAV or AIFF file. "
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 154.0, 124.0, 24.0, 24.0 ]
+					"patching_rect" : [ 154.5, 44.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -156,7 +114,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 72.0, 71.0, 35.0, 22.0 ],
+					"patching_rect" : [ 115.0, 44.0, 35.0, 22.0 ],
 					"text" : "open"
 				}
 
@@ -168,7 +126,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 115.0, 232.0, 57.0, 22.0 ],
+					"patching_rect" : [ 115.0, 80.0, 57.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
@@ -242,7 +200,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -251,6 +209,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}

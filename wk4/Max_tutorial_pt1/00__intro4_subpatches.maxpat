@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1417.0, 123.0, 640.0, 480.0 ],
+		"rect" : [ 172.0, 83.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 47.0, 288.0, 406.0, 60.0 ],
-					"text" : "For many of the examples to follow, there will be subpatches nested within parent patches. Just click these in Play mode to see the contents. Try making your own subpatch with inlets and outlets. Subpatches help to keep things readable."
+					"text" : "For some examples that follow, there will be subpatches nested within parent patches. Just click these in run mode to see the contents. Try making your own subpatch with inlets and outlets. Subpatches help to keep things readable."
 				}
 
 			}
@@ -56,7 +56,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.0, 50.0, 467.0, 47.0 ],
+					"patching_rect" : [ 39.0, 50.0, 468.0, 47.0 ],
 					"text" : "SUBPATCHES. In Max you can make a subpatch with an object called \"p.\" You simply create a new object called \"p\" with a creation argument of whatever you'd like to call the subpatch. To see the contents, just click once on it in run (locked) mode."
 				}
 
