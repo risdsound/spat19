@@ -314,7 +314,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 689.0, 180.0, 24.0, 24.0 ]
+					"patching_rect" : [ 664.0, 198.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -325,7 +325,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 689.0, 114.0, 63.0, 22.0 ],
+					"patching_rect" : [ 664.0, 132.0, 63.0, 22.0 ],
 					"text" : "metro 500"
 				}
 
@@ -338,7 +338,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 689.0, 43.0, 24.0, 24.0 ]
+					"patching_rect" : [ 664.0, 61.0, 24.0, 24.0 ]
 				}
 
 			}
