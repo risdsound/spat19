@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "5.974/OSX64" 1556033197
+<REAPER_PROJECT 0.1 "5.974/OSX64" 1556045479
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 1
@@ -15,7 +15,7 @@
   VIDEO_CONFIG 0 0 256
   PANMODE 3
   CURSOR 0
-  ZOOM 100 543 0
+  ZOOM 4.93752650783287 0 0
   VZOOMEX 6
   USE_REC_CFG 0
   RECMODE 1
@@ -60,10 +60,10 @@
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
-  MASTERMUTESOLO 0
+  MASTERMUTESOLO 1
   MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0
-  MASTERHWOUT 0 0 1 0 0 0 0 -1
-  MASTER_NCH 2 2
+  MASTERHWOUT 0 0 1 0 0 0 16384 -1
+  MASTER_NCH 32 2
   MASTER_VOLUME 1 0 -1 -1 1
   MASTER_FX 1
   MASTER_SEL 0
@@ -75,7 +75,7 @@
     DEFSHAPE 0 -1 -1
   >
   <TEMPOENVEX
-    ACT 1 -1
+    ACT 0 -1
     VIS 1 0 1
     LANEHEIGHT 0 0
     ARM 0
@@ -107,12 +107,12 @@
     AUXRECV 8 0 1 0 0 0 0 2048 0 -1:U 0 -1 ''
     MIDIOUT -1
     MAINSEND 0 0
-    HWOUT 1024 0 1 0 0 0 1024 -1:U -1
-    HWOUT 1025 0 1 0 0 0 1025 -1:U -1
-    HWOUT 1026 0 1 0 0 0 1027 -1:U -1
-    HWOUT 1027 0 1 0 0 0 1026 -1:U -1
+    HWOUT 1036 0 1 0 0 0 1025 -1:U -1
+    HWOUT 1038 0 1 0 0 0 1027 -1:U -1
+    HWOUT 1040 0 1 0 0 0 1026 -1:U -1
+    HWOUT 1042 0 1 0 0 0 1024 -1:U -1
     <FXCHAIN
-      WNDRECT 941 1272 802 646
+      WNDRECT 578 411 794 646
       SHOW 0
       LASTSEL 0
       DOCKED 0
@@ -126,12 +126,55 @@
     >
   >
   <TRACK {EF909DB0-BA7F-464F-815E-87B27650139F}
+    NAME "decode: FuMa to 5_0"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 1
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 8
+    FX 1
+    TRACKID {EF909DB0-BA7F-464F-815E-87B27650139F}
+    PERF 0
+    AUXRECV 8 0 1 0 0 0 0 2048 0 -1:U 0 -1 ''
+    MIDIOUT -1
+    MAINSEND 0 0
+    HWOUT 1036 0 1 0 0 0 1025 -1:U -1
+    HWOUT 1038 0 1 0 0 0 1029 -1:U -1
+    HWOUT 1040 0 1 0 0 0 1028 -1:U -1
+    HWOUT 1042 0 1 0 0 0 1024 -1:U -1
+    HWOUT 1043 0 1 0 0 0 1026 -1:U -1
+    <FXCHAIN
+      WNDRECT 585 409 794 647
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS ATK/FOA/Decode/5_0 ""
+        0.000000 5.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {4F0D7333-D9A9-9043-AF71-CB341B0EE74C}
+      WAK 0
+    >
+  >
+  <TRACK {5AEEE359-C125-E041-BEB7-8815E3A91B8D}
     NAME "decode: FuMa to pantophonic 2D"
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 0 0
     BUSCOMP 0 0
@@ -144,21 +187,21 @@
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 8
     FX 1
-    TRACKID {EF909DB0-BA7F-464F-815E-87B27650139F}
+    TRACKID {5AEEE359-C125-E041-BEB7-8815E3A91B8D}
     PERF 0
     AUXRECV 8 0 1 0 0 0 0 2048 0 -1:U 0 -1 ''
     MIDIOUT -1
     MAINSEND 0 0
-    HWOUT 1024 0 1 0 0 0 1024 -1:U -1
-    HWOUT 1025 0 1 0 0 0 1025 -1:U -1
-    HWOUT 1026 0 1 0 0 0 1026 -1:U -1
-    HWOUT 1027 0 1 0 0 0 1027 -1:U -1
-    HWOUT 1028 0 1 0 0 0 1028 -1:U -1
-    HWOUT 1029 0 1 0 0 0 1029 -1:U -1
-    HWOUT 1030 0 1 0 0 0 1030 -1:U -1
-    HWOUT 1031 0 1 0 0 0 1031 -1:U -1
+    HWOUT 1036 0 1 0 0 0 1031 -1:U -1
+    HWOUT 1037 0 1 0 0 0 1030 -1:U -1
+    HWOUT 1038 0 1 0 0 0 1029 -1:U -1
+    HWOUT 1039 0 1 0 0 0 1028 -1:U -1
+    HWOUT 1040 0 1 0 0 0 1027 -1:U -1
+    HWOUT 1041 0 1 0 0 0 1026 -1:U -1
+    HWOUT 1042 0 1 0 0 0 1025 -1:U -1
+    HWOUT 1043 0 1 0 0 0 1024 -1:U -1
     <FXCHAIN
-      WNDRECT 1245 1400 802 667
+      WNDRECT 792 345 794 667
       SHOW 0
       LASTSEL 0
       DOCKED 0
@@ -167,7 +210,7 @@
         8.000000 0.000000 5.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
       >
       FLOATPOS 0 0 0 0
-      FXID {C1F7B5B1-0DFC-1944-8D48-0DBC57FBF86A}
+      FXID {47C5341E-3A89-4343-90CB-368332770B95}
       WAK 0
     >
   >
@@ -177,7 +220,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 0 0
     BUSCOMP 0 0
@@ -195,16 +238,16 @@
     AUXRECV 8 0 1 0 0 0 0 2048 0 -1:U 0 -1 ''
     MIDIOUT -1
     MAINSEND 0 0
-    HWOUT 1024 0 1 0 0 0 1024 -1:U -1
-    HWOUT 1025 0 1 0 0 0 1025 -1:U -1
-    HWOUT 1026 0 1 0 0 0 1026 -1:U -1
-    HWOUT 1027 0 1 0 0 0 1027 -1:U -1
-    HWOUT 1028 0 1 0 0 0 1028 -1:U -1
-    HWOUT 1029 0 1 0 0 0 1029 -1:U -1
-    HWOUT 1030 0 1 0 0 0 1030 -1:U -1
-    HWOUT 1031 0 1 0 0 0 1031 -1:U -1
+    HWOUT 1026 0 1 0 0 0 1027 -1:U -1
+    HWOUT 1029 0 1 0 0 0 1026 -1:U -1
+    HWOUT 1032 0 1 0 0 0 1025 -1:U -1
+    HWOUT 1035 0 1 0 0 0 1024 -1:U -1
+    HWOUT 1037 0 1 0 0 0 1031 -1:U -1
+    HWOUT 1039 0 1 0 0 0 1030 -1:U -1
+    HWOUT 1041 0 1 0 0 0 1029 -1:U -1
+    HWOUT 1043 0 1 0 0 0 1028 -1:U -1
     <FXCHAIN
-      WNDRECT 1410 1085 793 987
+      WNDRECT 238 68 785 987
       SHOW 0
       LASTSEL 0
       DOCKED 0
@@ -217,56 +260,13 @@
       WAK 0
     >
   >
-  <TRACK {5AEEE359-C125-E041-BEB7-8815E3A91B8D}
-    NAME "decode: FuMa to 5_0"
-    PEAKCOL 16576
-    BEAT -1
-    AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    ISBUS 0 0
-    BUSCOMP 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    FREEMODE 0
-    SEL 0
-    REC 0 0 0 0 0 0 0
-    VU 2
-    TRACKHEIGHT 0 0 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 6
-    FX 1
-    TRACKID {5AEEE359-C125-E041-BEB7-8815E3A91B8D}
-    PERF 0
-    AUXRECV 8 0 1 0 0 0 0 2048 0 -1:U 0 -1 ''
-    MIDIOUT -1
-    MAINSEND 0 0
-    HWOUT 1024 0 1 0 0 0 1024 -1:U -1
-    HWOUT 1025 0 1 0 0 0 1025 -1:U -1
-    HWOUT 1026 0 1 0 0 0 1029 -1:U -1
-    HWOUT 1027 0 1 0 0 0 1028 -1:U -1
-    HWOUT 1029 0 1 0 0 0 1026 -1:U -1
-    <FXCHAIN
-      WNDRECT 2058 1217 802 647
-      SHOW 0
-      LASTSEL 0
-      DOCKED 0
-      BYPASS 0 0 0
-      <JS ATK/FOA/Decode/5_0 ""
-        0.000000 5.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-      >
-      FLOATPOS 0 0 0 0
-      FXID {3122D5F5-0D57-E44A-872B-C12888C7435C}
-      WAK 0
-    >
-  >
   <TRACK {E5E4C066-ACD4-BF46-88BC-CA313F703967}
     NAME "decode: FuMa to stereo"
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 0 0
     BUSCOMP 0 0
@@ -277,26 +277,26 @@
     VU 2
     TRACKHEIGHT 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 6
+    NCHAN 4
     FX 1
     TRACKID {E5E4C066-ACD4-BF46-88BC-CA313F703967}
     PERF 0
     AUXRECV 8 0 1 0 0 0 0 2048 0 -1:U 0 -1 ''
     MIDIOUT -1
     MAINSEND 0 0
-    HWOUT 1024 0 1 0 0 0 1024 -1:U -1
-    HWOUT 1025 0 1 0 0 0 1025 -1:U -1
+    HWOUT 1036 0 1 0 0 0 1025 -1:U -1
+    HWOUT 1042 0 1 0 0 0 1024 -1:U -1
     <FXCHAIN
-      WNDRECT 2058 1197 802 667
+      WNDRECT 879 303 794 666
       SHOW 0
       LASTSEL 0
       DOCKED 0
       BYPASS 0 0 0
-      <JS ATK/FOA/Decode/Binaural ""
-        21.000000 0.000000 1.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      <JS ATK/FOA/Decode/Stereo ""
+        31.000000 0.500000 5.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
       >
       FLOATPOS 0 0 0 0
-      FXID {92A28D10-D763-714A-BED6-7F65D2F0091A}
+      FXID {8FEFFBE1-F206-CA49-B88D-A5B80BD3A3CA}
       WAK 0
     >
   >
@@ -306,7 +306,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 0 0
     BUSCOMP 0 0
@@ -324,10 +324,10 @@
     AUXRECV 8 0 1 0 0 0 0 2048 0 -1:U 0 -1 ''
     MIDIOUT -1
     MAINSEND 0 0
-    HWOUT 1024 0 1 0 0 0 1024 -1:U -1
-    HWOUT 1025 0 1 0 0 0 1025 -1:U -1
+    HWOUT 1036 0 1 0 0 0 1025 -1:U -1
+    HWOUT 1042 0 1 0 0 0 1024 -1:U -1
     <FXCHAIN
-      WNDRECT 2058 1726 793 150
+      WNDRECT 768 776 785 150
       SHOW 0
       LASTSEL 0
       DOCKED 0
@@ -345,8 +345,8 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    VOLPAN 1.15135342746479 0 -1 -1 1
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 0 0
     BUSCOMP 0 0
@@ -357,26 +357,26 @@
     VU 2
     TRACKHEIGHT 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 6
+    NCHAN 4
     FX 1
     TRACKID {68A4F571-B9F8-0E49-9D5E-3C132516E74F}
     PERF 0
     AUXRECV 8 0 1 0 0 0 0 2048 0 -1:U 0 -1 ''
     MIDIOUT -1
     MAINSEND 0 0
-    HWOUT 1024 0 1 0 0 0 1024 -1:U -1
-    HWOUT 1025 0 1 0 0 0 1025 -1:U -1
+    HWOUT 1078 0 1 0 0 0 1025 -1:U -1
+    HWOUT 1079 0 1 0 0 0 1024 -1:U -1
     <FXCHAIN
-      WNDRECT 2058 1198 802 666
+      WNDRECT 572 303 794 667
       SHOW 0
       LASTSEL 0
       DOCKED 0
       BYPASS 0 0 0
-      <JS ATK/FOA/Decode/Stereo ""
-        30.000000 0.500000 5.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      <JS ATK/FOA/Decode/Binaural ""
+        21.000000 0.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
       >
       FLOATPOS 0 0 0 0
-      FXID {7544D7FC-31BD-204D-9F1B-4725A6375105}
+      FXID {21B4DB5D-C0EB-D643-A5C5-2052EBBC80CE}
       WAK 0
     >
   >
@@ -386,13 +386,13 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
+    MUTESOLO 1 0 0
     IPHASE 0
     ISBUS 0 0
     BUSCOMP 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FREEMODE 0
-    SEL 1
+    SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0
@@ -404,19 +404,15 @@
     AUXRECV 8 0 1 0 0 0 0 2048 0 -1:U 0 -1 ''
     MIDIOUT -1
     MAINSEND 0 0
-    HWOUT 1024 0 1 0 0 0 1024 -1:U -1
-    HWOUT 1025 0 1 0 0 0 1025 -1:U -1
+    HWOUT 1043 0 1 0 0 0 1024 -1:U -1
     <FXCHAIN
-      WNDRECT 2058 1678 793 186
+      WNDRECT 824 756 785 186
       SHOW 0
       LASTSEL 0
       DOCKED 0
       BYPASS 0 0 0
       <JS ATK/FOA/Decode/Mono ""
         0.000000 0.000000 0.500000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-      >
-      <JS_PINMAP
-        6AMAACwAAADoAwAABAAAAAQAAAABAAAAAAAAAAIAAAAAAAAABAAAAAAAAAAIAAAAAAAAABwAAADoAwAABAAAAAIAAAABAAAAAAAAAAIAAAAAAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {528AB918-F270-BE40-8D32-A3C6666B8EDD}
@@ -428,7 +424,7 @@
     PEAKCOL 29089700
     BEAT -1
     AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
+    VOLPAN 0.46976747615165 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     ISBUS 0 0
@@ -447,17 +443,39 @@
     MIDIOUT -1
     MAINSEND 0 0
     <FXCHAIN
-      WNDRECT 1227 1660 793 150
+      WNDRECT 834 466 785 288
       SHOW 0
       LASTSEL 0
       DOCKED 0
-      BYPASS 0 0 0
+      BYPASS 1 0 0
       <JS ATK/FOA/Encode/AmbiXtoB ""
         0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
       >
       FLOATPOS 0 0 0 0
       FXID {BF1D3DF5-71F5-AF4D-8C43-D4DB76D24ECD}
       WAK 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 207.59362811791382
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {07B9DB21-34B9-BD40-9AFC-ABE29E201164}
+      IID 1
+      NAME bformatMix_planes.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C3895588-0A97-C942-A42E-C15F39BA3232}
+      <SOURCE WAVE
+        FILE "/Users/mz11/Documents/_faculty/GreenleeShawn/risdWeekendDemos/_demoAudio/bformatMix_planes.wav"
+      >
     >
   >
 >
