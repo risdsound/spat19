@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "5.974/OSX64" 1556045479
+<REAPER_PROJECT 0.1 "5.974/OSX64" 1556544997
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 1
@@ -14,13 +14,13 @@
   TIMEMODE 1 5 -1 30 0
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 0
-  ZOOM 4.93752650783287 0 0
+  CURSOR 24
+  ZOOM 2.92323249582706 0 0
   VZOOMEX 6
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
-  LOOP 0
+  LOOP 1
   LOOPGRAN 0 4
   RECORD_PATH "" ""
   <RECORD_CFG
@@ -55,8 +55,8 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4
   PLAYRATE 1 0 0.25 4
-  SELECTION 0 0
-  SELECTION2 0 0
+  SELECTION 74 0
+  SELECTION2 74 0
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -112,7 +112,7 @@
     HWOUT 1040 0 1 0 0 0 1026 -1:U -1
     HWOUT 1042 0 1 0 0 0 1024 -1:U -1
     <FXCHAIN
-      WNDRECT 578 411 794 646
+      WNDRECT 1054 186 794 646
       SHOW 0
       LASTSEL 0
       DOCKED 0
@@ -137,7 +137,7 @@
     BUSCOMP 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FREEMODE 0
-    SEL 1
+    SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0
@@ -247,7 +247,7 @@
     HWOUT 1041 0 1 0 0 0 1029 -1:U -1
     HWOUT 1043 0 1 0 0 0 1028 -1:U -1
     <FXCHAIN
-      WNDRECT 238 68 785 987
+      WNDRECT 353 70 785 987
       SHOW 0
       LASTSEL 0
       DOCKED 0
@@ -293,7 +293,7 @@
       DOCKED 0
       BYPASS 0 0 0
       <JS ATK/FOA/Decode/Stereo ""
-        31.000000 0.500000 5.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+        30.000000 0.500000 5.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
       >
       FLOATPOS 0 0 0 0
       FXID {8FEFFBE1-F206-CA49-B88D-A5B80BD3A3CA}
@@ -373,7 +373,7 @@
       DOCKED 0
       BYPASS 0 0 0
       <JS ATK/FOA/Decode/Binaural ""
-        21.000000 0.000000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+        21.000000 0.000000 1.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
       >
       FLOATPOS 0 0 0 0
       FXID {21B4DB5D-C0EB-D643-A5C5-2052EBBC80CE}
@@ -424,14 +424,14 @@
     PEAKCOL 29089700
     BEAT -1
     AUTOMODE 0
-    VOLPAN 0.46976747615165 0 -1 -1 1
+    VOLPAN 0.76172702823122 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     ISBUS 0 0
     BUSCOMP 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FREEMODE 0
-    SEL 0
+    SEL 1
     REC 0 0 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0
@@ -443,39 +443,17 @@
     MIDIOUT -1
     MAINSEND 0 0
     <FXCHAIN
-      WNDRECT 834 466 785 288
+      WNDRECT 630 654 785 150
       SHOW 0
       LASTSEL 0
       DOCKED 0
-      BYPASS 1 0 0
+      BYPASS 0 0 0
       <JS ATK/FOA/Encode/AmbiXtoB ""
         0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
       >
       FLOATPOS 0 0 0 0
       FXID {BF1D3DF5-71F5-AF4D-8C43-D4DB76D24ECD}
       WAK 0
-    >
-    <ITEM
-      POSITION 0
-      SNAPOFFS 0
-      LENGTH 207.59362811791382
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0
-      MUTE 0
-      SEL 0
-      IGUID {07B9DB21-34B9-BD40-9AFC-ABE29E201164}
-      IID 1
-      NAME bformatMix_planes.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {C3895588-0A97-C942-A42E-C15F39BA3232}
-      <SOURCE WAVE
-        FILE "/Users/mz11/Documents/_faculty/GreenleeShawn/risdWeekendDemos/_demoAudio/bformatMix_planes.wav"
-      >
     >
   >
 >
